@@ -1,4 +1,0 @@
-wheel
-flake8
-isort
-tox

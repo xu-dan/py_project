@@ -1,0 +1,7 @@
+-r base.txt
+
+flake8
+flake8_import_order
+isort
+wheel
+tox

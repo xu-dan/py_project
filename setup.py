@@ -30,6 +30,8 @@ def info(type):
         pattern = r'^__description__\s*=\s*[\'"]([^\'"]*)[\'"]'
     elif type == 'author':
         pattern = r'^__author__\s*=\s*[\'"]([^\'"]*)[\'"]'
+    else:
+        raise Exception('Missing information type!')
 
     value = re.search(pattern, info_file, re.MULTILINE).group(1)
     if not value:

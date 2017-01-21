@@ -79,6 +79,8 @@ target/
 
 # pyenv
 .python-version
+# Virtual environment
+.pyenv
 
 #######################
 # OSX.gitignore
